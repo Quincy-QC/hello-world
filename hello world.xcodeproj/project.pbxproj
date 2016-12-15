@@ -207,6 +207,7 @@
 				TargetAttributes = {
 					240DEEA01E027CB30010FA30 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = 5YJ4376P85;
 						ProvisioningStyle = Automatic;
 					};
 					240DEEB91E027CB40010FA30 = {
@@ -422,6 +423,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5YJ4376P85;
 				INFOPLIST_FILE = "hello world/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Sino.LGL.AS.iOS.hello-world";
@@ -433,6 +436,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = 5YJ4376P85;
 				INFOPLIST_FILE = "hello world/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Sino.LGL.AS.iOS.hello-world";
@@ -505,6 +510,7 @@
 				240DEED01E027CB40010FA30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		240DEED11E027CB40010FA30 /* Build configuration list for PBXNativeTarget "hello worldTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +519,7 @@
 				240DEED31E027CB40010FA30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		240DEED41E027CB40010FA30 /* Build configuration list for PBXNativeTarget "hello worldUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +528,7 @@
 				240DEED61E027CB40010FA30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
