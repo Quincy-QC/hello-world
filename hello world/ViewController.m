@@ -19,6 +19,10 @@
     // Do any additional setup after loading the view, typically from a nib.
     
     NSLog(@"hello world");
+    NSLog(@"new dev");
+    
+    UIButton *newButton = [UIButton buttonWithType:(UIButtonTypeSystem)];
+    [self.view addSubview:newButton];
 }
 
 
