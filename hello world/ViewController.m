@@ -23,6 +23,9 @@
     
     UIButton *newButton = [UIButton buttonWithType:(UIButtonTypeSystem)];
     [self.view addSubview:newButton];
+    
+    UILabel *newLabel = [[UILabel alloc] init];
+    [self.view addSubview:newLabel];
 }
 
 
