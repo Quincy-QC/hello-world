@@ -26,6 +26,9 @@
     
     UILabel *newLabel = [[UILabel alloc] init];
     [self.view addSubview:newLabel];
+    
+    UITextField *tf = [[UITextField alloc] init];
+    [self.view addSubview:tf];
 }
 
 
