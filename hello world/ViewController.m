@@ -17,18 +17,6 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    
-    NSLog(@"hello world");
-    NSLog(@"new dev");
-    
-    UIButton *newButton = [UIButton buttonWithType:(UIButtonTypeSystem)];
-    [self.view addSubview:newButton];
-    
-    UILabel *newLabel = [[UILabel alloc] init];
-    [self.view addSubview:newLabel];
-    
-    UITextField *tf = [[UITextField alloc] init];
-    [self.view addSubview:tf];
 }
 
 
