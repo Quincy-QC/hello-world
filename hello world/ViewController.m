@@ -20,6 +20,9 @@
     
     NSLog(@"hello world");
     NSLog(@"new dev");
+    
+    UIButton *newButton = [UIButton buttonWithType:(UIButtonTypeSystem)];
+    [self.view addSubview:newButton];
 }
 
 
