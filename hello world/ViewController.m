@@ -26,6 +26,9 @@
     
     UIView *view = [[UIView alloc] init];
     [self.view addSubview:view];
+    
+    UILabel *label = [[UILabel alloc] init];
+    [self.view addSubview:label];
 }
 
 
