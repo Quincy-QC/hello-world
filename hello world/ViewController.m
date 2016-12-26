@@ -29,6 +29,10 @@
     
     UILabel *label = [[UILabel alloc] init];
     [self.view addSubview:label];
+
+    
+    UIView *colorView = [[UIView alloc] init];
+    [self.view addSubview:colorView];
 }
 
 
